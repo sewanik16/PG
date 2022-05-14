@@ -14,11 +14,32 @@
         <h1><a href="index.html">Urban PG</a></h1>
 
         <div class="rightHeader">
-        <button>Sign Up</button>
-        <button>Log In</button>
+        <button id="signup" onclick="signup()">Sign Up</button>
+        <button id="login" onclick="login()" >Log In</button>
     </div>
     </div>
-
+<div class="login-form">
+    <div id="log">
+        <h3>Log-In Form</h3>
+        <form action="">
+            <input type="number" placeholder="enter your mobile number"><br>
+            <input type="email" placeholder="email id"><br>
+            <input type="password" placeholder="password"><br>
+            <button>submit</button>
+        </form>
+    </div>
+    <div id="sign">
+        <h3>Sign-Up Form</h3>
+        <form action="">
+            <input type="text" placeholder="enter your name"><br>
+            <input type="text-box" placeholder="enter your address"><br>
+            <input type="number" placeholder="enter your mobile number"><br>
+            <input type="email" placeholder="email id"><br>
+            <input type="password" placeholder="password"><br>
+            <button>submit</button>
+        </form>
+    </div>
+</div>
     <div class="img-section d-flex-c">
         <img src="bg333.png" alt="img">
         <div class="search-bar d-flex-c">
@@ -48,4 +69,5 @@
         </ul>
     </div>
 </body>
+<script src="index.js"></script>
 </html>

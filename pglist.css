@@ -1,6 +1,6 @@
 .breadcrumb{
     padding: 10px;
-    background-color: darkgray;
+    background-color: lightgray;
     position:sticky;
 
   top:100px;
@@ -13,17 +13,43 @@
 span{
     padding: 10px;
 }
+.filter{
+    width:45vw ;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    /* box-shadow:1px 1px 10px 1px gray; */
+
+}
+.filter span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.filter img{
+    width: 30px;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
 .card{
     margin-bottom: 20px;
     /* border: 2px solid red; */
     width: 50vw;
-    height: 30vh;
+    height: 32vh;
     padding: 10px;
+    /* padding-top: 0; */
     box-shadow:1px 1px 10px 1px gray;
     border-radius: 4px;
     display: flex;
     /* align-items: center; */
-    /* justify-content: center; */
+    /* justify-content: center;  */
 }
 .card-container{
     padding: 50px;
@@ -37,7 +63,7 @@ span{
 
 }
 .card-content{
-    padding: 30px;
+    padding: 10px 5px 5px 30px;
     width: 50%;
     height: 100%;
     line-height: 150%;
@@ -65,11 +91,30 @@ span{
     border-radius: 4px;
     color: lightgray;
 }
+
+.card-content img{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-left: -14px;
+    /* background-color: red; */
+}
+/* .card-content p{ */
+    /* margin-left: -10px; */
+/* } */
 @media screen and (max-width:720px){
+    .filter{
+        width:90vw ;
+        /* display: flex; */
+        /* align-items: center; */
+        /* padding: 10px; */
+        /* justify-content: space-between; */
+        /* border: 1px solid red; */
+    }
     .card{
         width: 90vw;
-        height: 20vh;
-        padding-top: 10px;
+        height: 35vh;
+        /* padding-top: 10px; */
         /* line-height: 10px; */
         font-size: 12px;
         /* border: 2px solid red; */
